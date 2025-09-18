@@ -1,0 +1,44 @@
+
+# Dependencies
+node_modules/
+.pnpm-store/
+*.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# SST
+.sst/
+sst-env.d.ts
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (legacy)
+*.egg-info/
+.venv/
+__pycache__/
+*.pyc
